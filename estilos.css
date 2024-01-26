@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.imagenPrincipal {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.img1 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.navbar {
+    transition: background-color 0.3s ease;
+}
+
+.navbar.opaco {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-brand img {
+    height: 50px;
+    width: 100px;
+}
+
+
+#arreglo{
+    height: 100px;
+    width: 100px;
+}
+
+#uwu {
+    margin-top: 3000px;
+}
+
+#colorFondo {
+    background-color: gray;
+}
+
+.textoInicial {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: black;
+}
+
+.textoInicial h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.textoInicial .lorem1 {
+    font-size: 1.2em;
+}
