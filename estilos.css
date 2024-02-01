@@ -60,3 +60,12 @@ body {
 .textoInicial .lorem1 {
     font-size: 1.2em;
 }
+
+
+#primerFormulario{
+    margin-top: 500px;
+}
+
+#colorFondo{
+    background-color: #DFDFDF;
+}
