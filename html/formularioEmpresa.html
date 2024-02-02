@@ -43,12 +43,16 @@
     </div>
     <div id="formulario-container">
         <div class="mb-3" id="primerFormulario">
-            <label for="formGroupExampleInput" class="form-label">Nombre</label>
+            <label for="formGroupExampleInput" class="form-label">Nombre de la empresa</label>
             <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Juan Perez">
         </div>
         <div class="mb-3">
             <label for="formGroupExampleInput2" class="form-label">Rut</label>
             <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="11.111.111-1">
+        </div>
+        <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">Giro o rubro</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="">
         </div>
         <div id="">
             <label for="formGroupExampleInput" class="form-label">Estado civil</label>
@@ -77,28 +81,47 @@
             <label for="formGroupExampleInput" class="form-label">Correo</label>
             <input type="text" class="form-control" id="formGroupExampleInput7" placeholder="Ejemplo@gmail.com">
         </div>
-        <div class="mb-3">
-            <label for="formGroupExampleInput2" class="form-label">Certificación de estudios</label>
-            <input type="text" class="form-control" id="formGroupExampleInput8" placeholder="Elemento subible">
+        <div class="container mt-5">
+            <label for="formGroupExampleInput2" class="form-label">Certificado de estudios</label>
+            <form action="#" method="post" enctype="multipart/form-data">
+                <div class="input-group">
+                    <input type="file" class="form-control" id="fileInput" name="fileInput" aria-describedby="uploadButton">
+                    <button class="btn btn-primary" type="submit" id="uploadButton">Subir Archivo</button>
+                </div>
+            </form>
         </div>
-        <div class="mb-3">
-            <label for="formGroupExampleInput2" class="form-label">Certificación de cursos</label>
-            <input type="text" class="form-control" id="formGroupExampleInput9" placeholder="Elemento subible">
+        <div class="container mt-5">
+            <label for="formGroupExampleInput2" class="form-label">Certificado de cursos</label>
+            <form action="#" method="post" enctype="multipart/form-data">
+                <div class="input-group">
+                    <input type="file" class="form-control" id="fileInput" name="fileInput" aria-describedby="uploadButton">
+                    <button class="btn btn-primary" type="submit" id="uploadButton">Subir Archivo</button>
+                </div>
+            </form>
         </div>
-        <div class="mb-3">
-            <label for="formGroupExampleInput" class="form-label">Certificado de antecedentes</label>
-            <input type="text" class="form-control" id="formGroupExampleInput10" placeholder="Elemento subible">
+        <div class="container mt-5">
+            <label for="formGroupExampleInput2" class="form-label">Certificado de antecedentes</label>
+            <form action="#" method="post" enctype="multipart/form-data">
+                <div class="input-group">
+                    <input type="file" class="form-control" id="fileInput" name="fileInput" aria-describedby="uploadButton">
+                    <button class="btn btn-primary" type="submit" id="uploadButton">Subir Archivo</button>
+                </div>
+            </form>
         </div>
-        <div class="mb-3">
+        <div class="container mt-5">
             <label for="formGroupExampleInput2" class="form-label">CV</label>
-            <input type="text" class="form-control" id="formGroupExampleInput11" placeholder="Adjunta tu CV">
+            <form action="#" method="post" enctype="multipart/form-data">
+                <div class="input-group">
+                    <input type="file" class="form-control" id="fileInput" name="fileInput" aria-describedby="uploadButton">
+                    <button class="btn btn-primary" type="submit" id="uploadButton">Subir Archivo</button>
+                </div>
+            </form>
         </div>
-        <div class="d-flex justify-content-end">
+
+        <div class="d-flex justify-content-end" id="Benviar">
             <button id="miBoton">Enviar</button>
         </div>
     </div>
-
-
 
     <div class="contenedor-fila">
         <div class="bloque naranjo"></div>
