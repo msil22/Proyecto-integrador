@@ -1,13 +1,9 @@
-document.addEventListener('DOMContentLoaded', function () {
-    window.addEventListener('scroll', function () {
-        var navbar = document.getElementById('navbar');
-        var imagenPrincipal = document.querySelector('.imagenPrincipal img');
-        var offset = imagenPrincipal.offsetHeight; 
+const navEl = document.querySelector('.navbar');
 
-        if (window.scrollY > offset) {
-            navbar.classList.add('opaco');
-        } else {
-            navbar.classList.remove('opaco');
-        }
-    });
-});
+window.addEventListener('scroll', () => {
+    if (window.scrollY >= 56){
+        navEl.classList.add('navbar-scrolled');
+    } else if (window.scrollY < 56){
+        navEl.classList.remove('navbar-scrolled')
+    }
+})

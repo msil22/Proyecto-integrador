@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Istok+Web&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../estilos.css">
+    <title>Home</title>
+</head>
+<body id="colorFondo">
+
+	<nav class="navbar navbar-expand-md fixed-top navbar-scrolled">
+		<div class="container-fluid">
+			<!-- logo renca-->
+			<a class="navbar-brand" href="../index.html">
+				<img src="../img/Renca_logo.png" alt="" width="100">
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="menu">
+				<ul class="navbar-nav justify-content-center align-items-center flex-grow-1">
+					<li class="nav-item">
+						<a href="../index.html" class="nav-link active"><img src="../img/Aca_estamos_logo.png" alt="" height="100"></a>
+					</li>
+				</ul>
+			</div>
+			<!-- Botones -->
+			<a href="#" class="empresa-button" id="empresa">Soy Empresa</a>
+			<a href="#" class="usuario-button" id="usuario">Crear Cuenta</a>
+			<a href="#" class="usuario-button" >Ingresar</a>
+		</div>
+	</nav>
+    
+    
+
+    <div class="fregistro">
+        <p>Formulario de registro</p>
+    </div>
+    <div id="formulario-container">
+        <div class="mb-3" id="primerFormulario">
+            <label for="formGroupExampleInput" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Juan Perez">
+        </div>
+        <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">Rut</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="11.111.111-1">
+        </div>
+        <div id="">
+            <label for="formGroupExampleInput" class="form-label">Estado civil</label>
+            <select class="form-select form-select-mb-3">
+                <option selected>Seleccione una opción</option>
+                <option value="1">Soltero/a</option>
+                <option value="2">Casado/a</option>
+                <option value="3">Viudo/a</option>
+                <option value="3">Divorciado/a</option>
+                <option value="3">Unión civil</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">Fecha de nacimiento</label>
+            <input type="text" class="form-control" id="formGroupExampleInput4" placeholder="(Buscar opciones con esta)">
+        </div>
+        <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Edad</label>
+            <input type="text" class="form-control" id="formGroupExampleInput5" placeholder="Example input placeholder">
+        </div>
+        <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">Celular</label>
+            <input type="text" class="form-control" id="formGroupExampleInput6" placeholder="+569 1234 5678">
+        </div>
+        <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Correo</label>
+            <input type="text" class="form-control" id="formGroupExampleInput7" placeholder="Ejemplo@gmail.com">
+        </div>
+        <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">Certificación de estudios</label>
+            <input type="text" class="form-control" id="formGroupExampleInput8" placeholder="Elemento subible">
+        </div>
+        <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">Certificación de cursos</label>
+            <input type="text" class="form-control" id="formGroupExampleInput9" placeholder="Elemento subible">
+        </div>
+        <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Certificado de antecedentes</label>
+            <input type="text" class="form-control" id="formGroupExampleInput10" placeholder="Elemento subible">
+        </div>
+        <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">CV</label>
+            <input type="text" class="form-control" id="formGroupExampleInput11" placeholder="Adjunta tu CV">
+        </div>
+        <div class="d-flex justify-content-end">
+            <button id="miBoton">Enviar</button>
+        </div>
+    </div>
+
+
+
+    <div class="contenedor-fila">
+        <div class="bloque naranjo"></div>
+        <div class="bloque amarillo"></div>
+        <div class="bloque verde"></div>
+        <div class="bloque verdoso"></div>
+        <div class="bloque aqua"></div>
+        <div class="bloque azul"></div>
+    </div>
+    <footer>
+        <div>
+            <img src="../img/Escudo_Renca.png" alt="escudo" class="escudo">
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.718185307366!2d-70.7067472879191!3d-33.40451579505184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c6a592ba9671%3A0xa769a671ce1c6268!2sIlustre%20Municipalidad%20de%20Renca!5e0!3m2!1ses!2scl!4v1706731664581!5m2!1ses!2scl" width="268" height="197" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="contactanos">
+            <a href="">
+                <i class="fa-solid fa-location-dot"></i>
+            </a>
+            <a href="">
+                <i class="fa-solid fa-phone"></i>
+            </a>
+            <a href="">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+        </div>
+        <div class="contactanosTXT">
+            <p class="numContacto">Blanco Encalada Nº 1335, Plaza de Renca, Renca</p>
+            <p class="numContacto">+56 2 2685 6600</p>
+            <p class="numContacto">contacto@renca.cl</p>
+        </div>
+        <div class="redes">
+            <p id="encuentranos">Encuéntranos</p>
+            <a href="">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+        </div>
+    </footer>
+    <div class="derechos">
+        <p>© Acá Estamos / Ilustre Municipalidad de Renca / Todos los derechos reservados.</p>
+    </div>
+</div>
+    <script src="../script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
