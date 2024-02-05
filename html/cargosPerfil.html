@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../cargos.css">
+    <title>Document</title>
+</head>
+<body>
+  
+  <nav class="navbar custom-bg-color navbar-expand-md" data-bs-theme="dark" >
+    <div class="container-fluid">
+        <!-- logo renca-->
+        <a class="navbar-brand" href="#">
+            <img src="../img/logo renca negro.png" alt="" width="100">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav justify-content-center align-items-center flex-grow-1">
+                <li class="nav-item">
+                    <a href="../index.html" class="nav-link active"><img src="../img/Aca_estamos_logo.png" alt="" height="100"></a>
+                </li>
+            </ul>
+        </div>
+        
+        <!-- Perfil Dropdown -->
+        <li class="nav-item dropdown" id="lista">
+        <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="perfil"><i class="bi bi-person-circle"></i></a>
+        <ul class="dropdown-menu bg-secondary" >
+          <li><a class="dropdown-item" href="">Mi Perfil</a></li>
+          <li><a class="dropdown-item" href="">Mi CV</a></li>
+          <li><a class="dropdown-item" href="">Mis Postulaciones</a></li>
+          <li><a class="dropdown-item" href="">Mis Ofertas Guardadas</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="">Cerrar Sesión</a></li>
+        </ul>
+      </li>
+    </div>
+  </nav>
+
+        <!-- busqueda -->
+      <div class="container text-center" id="busqueda">
+        <div class="row align-items-center">
+            <div class="col"></div>
+            <div class="col">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Cargo o Empresa..." aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+                  </form>
+            </div>
+            <div class="col"></div>
+
+        </div>
+      </div>
+
+      <section class="cargos">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    Últimos Empleos Publicados
+                    <div class="card cargo" style="width: 30rem;">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="card-title">Cargo</h5>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Empresa</h6>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Fecha Publicación</h6>
+                                </div>
+                                <div class="col">
+                                    <p class="card-text">Descipción: Some quick example text to build on the card title and make up the bulk of the card's content.<a href="#" class="card-link">...Ver Más</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="card cargo" style="width: 30rem;">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="card-title">Cargo</h5>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Empresa</h6>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Fecha Publicación</h6>
+                                </div>
+                                <div class="col">
+                                    <p class="card-text">Descipción: Some quick example text to build on the card title and make up the bulk of the card's content.<a href="#" class="card-link">...Ver Más</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="card cargo" style="width: 30rem;">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="card-title">Cargo</h5>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Empresa</h6>
+                                    <h6 class="card-subtitle mb-2 text-body-secondary">Fecha Publicación</h6>
+                                </div>
+                                <div class="col">
+                                    <p class="card-text">Descipción: Some quick example text to build on the card title and make up the bulk of the card's content.<a href="#" class="card-link">...Ver Más</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card" style="width: 30rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Cargo</h5>
+                          <h6 class="card-subtitle mb-2 text-body-secondary">Empresa</h6>
+                          <h6 class="card-subtitle mb-2 text-body-secondary">Fecha publicación</h6>
+                          <p class="card-text">Descripción: Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <ul>
+                            Requisitos
+                            <li>Requisito</li>
+                            <li>Requisito</li>
+                            <li>Requisito</li>
+                          </ul>
+                          <ul>
+                            Funciones
+                            <li>Función</li>
+                            <li>Función</li>
+                            <li>Función</li>
+                          </ul>
+                          <a href="#" class="card-link"><i class="bi bi-bookmark"></i></a>
+                          <a href="#" class="card-link"><i class="bi bi-share"></i></a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+        </div>
+      </section>
+
+      <div class="text">
+      </div>
+  
+      <div class="text2">
+      </div>
+  
+      <!-- footer -->
+      <div class="contenedor-fila">
+        <div class="bloque naranjo"></div>
+        <div class="bloque amarillo"></div>
+        <div class="bloque verde"></div>
+        <div class="bloque verdoso"></div>
+        <div class="bloque aqua"></div>
+        <div class="bloque azul"></div>
+    </div>
+    <footer>
+        <div>
+            <img src="../img/Escudo_Renca.png" alt="escudo" class="escudo">
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.718185307366!2d-70.7067472879191!3d-33.40451579505184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c6a592ba9671%3A0xa769a671ce1c6268!2sIlustre%20Municipalidad%20de%20Renca!5e0!3m2!1ses!2scl!4v1706731664581!5m2!1ses!2scl" width="268" height="197" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="contactanos">
+            <a href="">
+                <i class="bi bi-geo-alt"></i>
+            </a>
+            <a href="">
+                <i class="bi bi-telephone-fill"></i>
+            </a>
+            <a href="">
+                <i class="bi bi-envelope"></i>
+            </a>
+        </div>
+        <div class="contactanosTXT">
+            <p class="numContacto">Blanco Encalada Nº 1335, Plaza de Renca, Renca</p>
+            <p class="numContacto">+56 2 2685 6600</p>
+            <p class="numContacto">contacto@renca.cl</p>
+        </div>
+        <div class="redes">
+            <p id="encuentranos">Encuéntranos</p>
+            <a href="">
+                <i class="bi bi-youtube"></i>
+            </a>
+            <a href="">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="">
+                <i class="bi bi-facebook"></i>
+            </a>
+        </div>
+    </footer>
+    <div class="derechos">
+        <p>© Acá Estamos / Ilustre Municipalidad de Renca / Todos los derechos reservados.</p>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
