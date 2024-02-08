@@ -152,11 +152,14 @@ footer a {
     height: 900px;
 }
 
-
-
 .card-group{
-
     border-radius: 20px;
     padding: 80px;
-
 }
+
+.fa-solid{
+    font-size: 100px; 
+    text-align: center;
+  
+}
+
