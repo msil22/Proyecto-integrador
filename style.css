@@ -178,6 +178,14 @@ body {
   background-position: center center;
 }
 
+#fondo2 {
+  padding-top: 200px;
+  background-image: url("img/fondo2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
 /*botones*/
 
 
@@ -229,6 +237,11 @@ main {
   background-color: #106f2e;
 }
 
+/*registro 2*/
+.cuadrado {
+  background-color: #ffffff;
+  color: #ffffff;
+}
 /* Pie de página */
 footer {
   font-family: "Istok Web", sans-serif;
