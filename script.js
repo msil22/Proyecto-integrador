@@ -37,13 +37,20 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-function openModal() {
+function openModal(imageSrc) {
   const modal = document.getElementById('myModal');
+  const modalImage = document.getElementById('modalImage');
+
+  // Establece la fuente de la imagen del modal
+  modalImage.src = imageSrc;
+
+  // Muestra el modal
   modal.style.display = 'block';
 }
 
 function closeModal() {
   const modal = document.getElementById('myModal');
+  // Oculta el modal
   modal.style.display = 'none';
 }
 
