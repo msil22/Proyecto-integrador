@@ -1,11 +1,12 @@
 import React from 'react'
 import './Footer.css'
-import Iframe from './iframe/Iframe.jsx'
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
   <>
-    <div class="contenedor-fila">
+  <Link to={"app"}>Ir a app</Link>
+  <div class="contenedor-fila">
 	<div class="bloque naranjo"></div>
 	<div class="bloque amarillo"></div>
 	<div class="bloque verde"></div>
@@ -17,7 +18,6 @@ function Footer() {
 	<div>
 		<img src="../Escudo_Renca.png" alt="escudo" class="escudo"/>
 	</div>
-  <Iframe />
 	<div class="contactanos">
 		<a href="">
 			<i class="fa-solid fa-location-dot"></i>
