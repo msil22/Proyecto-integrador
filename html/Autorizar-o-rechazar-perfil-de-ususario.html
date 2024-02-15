@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Istok+Web&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-g6OrZjcIfT2Qq5mEV+YxZN51H2a5Yk6c9dPAhazrBLpaQOCl6l/H0DoRER9M5EFS" crossorigin="anonymous">
+    <link rel="stylesheet" href="../autorizar-o-rechazar-perfil-de-usuario.css">
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-md fixed-top navbar-scrolled">
+		<div class="container-fluid">
+			<!-- logo renca-->
+			<a class="navbar-brand" href="index.html">
+				<img src="/img/Renca_logo.png" alt="" width="100">
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="menu">
+				<ul class="navbar-nav justify-content-center align-items-center flex-grow-1">
+					<li class="nav-item">
+						<a href="index.html" class="nav-link active"><img src="/img/Aca_estamos_logo.png" alt="" height="100"></a>
+					</li>
+				</ul>
+			</div>
+			<!-- Botones -->
+			<a href="/html/inicio-empresa.html" class="empresa-button" id="empresa">Soy Empresa</a>
+			<a href="/html/registrosesion.html" class="usuario-button" id="usuario">Crear Cuenta</a>
+			<a href="/html/iniciosesion.html" class="usuario-button" >Ingresar</a>
+		</div>
+	</nav>
+
+
+
+  <div class="verCV">
+    <div class="contenedores">
+      <p>Nombre Apellido | Fecha de Registro | Por revisar</p>
+      <button type="button" class="btn btn-warning" onclick="openModal('../img/CV.jpg')">Ver CV</button>
+    </div>
+    <div class="contenedores-rechazado">
+      <p>Nombre Apellido | Fecha de Registro | Rechazado</p>
+      <button type="button" class="btn btn-warning" onclick="openModal('../img/CV.jpg')">Ver CV</button>
+    </div>
+    <div class="contenedores-aprobado">
+      <p>Nombre Apellido | Fecha de Registro | Aprobado</p>
+      <button type="button" class="btn btn-warning" onclick="openModal('../img/CV.jpg')">Ver CV</button>
+    </div>
+    <div class="contenedores">
+      <p>Nombre Apellido | Fecha de Registro | Por revisar</p>
+      <button type="button" class="btn btn-warning" onclick="openModal('../img/CV.jpg')">Ver CV</button>
+    </div>
+    <div class="contenedores">
+      <p>Nombre Apellido | Fecha de Registro | Por revisar</p>
+      <button type="button" class="btn btn-warning" onclick="openModal('../img/CV.jpg')">Ver CV</button>
+    </div>
+    <div class="contenedores-aprobado">
+      <p>Nombre Apellido | Fecha de Registro | Aprobado</p>
+      <button type="button" class="btn btn-warning" onclick="openModal('../img/CV.jpg')">Ver CV</button>
+    </div>
+    <div class="contenedores">
+      <p>Nombre Apellido | Fecha de Registro | Por revisar</p>
+      <button type="button" class="btn btn-warning" onclick="openModal('../img/CV.jpg')">Ver CV</button>
+    </div>
+    <div class="contenedores-aprobado">
+      <p>Nombre Apellido | Fecha de Registro | Por revisar</p>
+      <button type="button" class="btn btn-warning" onclick="openModal('../img/CV.jpg')">Ver CV</button>
+    </div>
+    <div class="contenedores">
+      <p>Nombre Apellido | Fecha de Registro | Aprobado</p>
+      <button type="button" class="btn btn-warning" onclick="openModal('../img/CV.jpg')">Ver CV</button>
+    </div>
+    <div class="contenedores">
+      <p>Nombre Apellido | Fecha de Registro | Por revisar</p>
+      <button type="button" class="btn btn-warning" onclick="openModal('../img/CV.jpg')">Ver CV</button>
+    </div>
+    <div class="contenedores">
+      <p>Nombre Apellido | Fecha de Registro | Por revisar</p>
+      <button type="button" class="btn btn-warning" onclick="openModal('../img/CV.jpg')">Ver CV</button>
+    </div>
+    <div class="contenedores-aprobado">
+      <p>Nombre Apellido | Fecha de Registro | Aprobado</p>
+      <button type="button" class="btn btn-warning" onclick="openModal('../img/CV.jpg')">Ver CV</button>
+    </div>
+  </div>
+  
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img id="modalImage" src="" alt="Imagen del modal">
+    </div>
+  </div>
+  
+
+
+
+
+
+
+
+
+<div class="contenedor-fila">
+	<div class="bloque naranjo"></div>
+	<div class="bloque amarillo"></div>
+	<div class="bloque verde"></div>
+	<div class="bloque verdoso"></div>
+	<div class="bloque aqua"></div>
+	<div class="bloque azul"></div>
+</div>
+<footer>
+	<div>
+		<img src="/img/Escudo_Renca.png" alt="escudo" class="escudo">
+	</div>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.718185307366!2d-70.7067472879191!3d-33.40451579505184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c6a592ba9671%3A0xa769a671ce1c6268!2sIlustre%20Municipalidad%20de%20Renca!5e0!3m2!1ses!2scl!4v1706731664581!5m2!1ses!2scl" width="268" height="197" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	<div class="contactanos">
+		<a href="">
+			<i class="fa-solid fa-location-dot"></i>
+		</a>
+		<a href="">
+			<i class="fa-solid fa-phone"></i>
+		</a>
+		<a href="">
+			<i class="fa-solid fa-envelope"></i>
+		</a>
+	</div>
+	<div class="contactanosTXT">
+		<p class="numContacto">Blanco Encalada Nº 1335, Plaza de Renca, Renca</p>
+		<p class="numContacto">+56 2 2685 6600</p>
+		<p class="numContacto">contacto@renca.cl</p>
+	</div>
+	<div class="redes">
+		<p id="encuentranos">Encuéntranos</p>
+		<a href="">
+			<i class="fa-brands fa-youtube"></i>
+		</a>
+		<a href="">
+			<i class="fa-brands fa-instagram"></i>
+		</a>
+		<a href="">
+			<i class="fa-brands fa-facebook"></i>
+		</a>
+	</div>
+</footer>
+<div class="derechos">
+	<p>© Acá Estamos / Ilustre Municipalidad de Renca / Todos los derechos reservados.</p>
+</div>
+</div>
+	<script src="../script.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+</body>
+</html>

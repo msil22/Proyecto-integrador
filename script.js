@@ -34,3 +34,43 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
+
+
+
+function openModal(imageSrc) {
+  const modal = document.getElementById('myModal');
+  const modalImage = document.getElementById('modalImage');
+
+  // Establece la fuente de la imagen del modal
+  modalImage.src = imageSrc;
+
+  // Muestra el modal
+  modal.style.display = 'block';
+}
+
+function closeModal() {
+  const modal = document.getElementById('myModal');
+  // Oculta el modal
+  modal.style.display = 'none';
+}
+
+// Cierra el modal si se hace clic fuera de él
+window.onclick = function (event) {
+  const modal = document.getElementById('myModal');
+  if (event.target == modal) {
+    modal.style.display = 'none';
+  }
+};
+
+
+function toggleChat() {
+  var chatBox = document.getElementById('chatBox');
+  chatBox.style.display = chatBox.style.display === 'none' ? 'block' : 'none';
+}
+
+function sendMessage() {
+  var userInput = document.getElementById('userInput').value;
+  var chatMessages = document.getElementById('chatMessages');
+  chatMessages.innerHTML += '<p>Usuario: ' + userInput + '</p>';
+  document.getElementById('userInput').value = ''; // Limpiar el campo de entrada
+}
