@@ -1,8 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Footer from './Footer/Footer.jsx'
+import Footer from './components/Footer/Footer.jsx'
 import {createBrowserRouter, RouterProvider} from "react-router-dom"
 import App from './App.jsx'
+import AutorizacionPerfiles from './components/AutorizacionPerfiles/AutorizacionPerfiles.jsx'
+
+
 
 const router = createBrowserRouter([
   {
@@ -12,6 +15,10 @@ const router = createBrowserRouter([
   {
     path: "app",
     element: <App />
+  },
+  {
+    path: "autorizacionPerfiles",
+    element: <AutorizacionPerfiles />
   }
 ])
 

@@ -1,7 +1,8 @@
 import React from 'react'
 import './AutorizacionPerfiles.css'
+import Footer from '../Footer/Footer.jsx'
 
-function AutorizaciónPerfiles() {
+function AutorizacionPerfiles() {
   return (
     <>
     <div className="container text-center">
@@ -10,8 +11,9 @@ function AutorizaciónPerfiles() {
             <input type="submit" value="Volver"/>
         </form>
     </div>
+    <Footer />
     </>
   )
 }
 
-export default AutorizaciónPerfiles
+export default AutorizacionPerfiles
