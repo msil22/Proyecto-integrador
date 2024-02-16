@@ -15,7 +15,7 @@ function InicioSesion() {
                                 <input type="email" id="correo" name="correo" required />
                                 <label for="correo">Contraseña:</label>
                                 <input type="contraseña" id="contraseña" name="contraseña" required />
-                                <Link to="inicio-administrador"><button type="submit"></button></Link>
+                                <Link to="inicio-administrador"><button type="submit">Ingresar</button></Link>
                             </form>
                         </div>
                     </div>

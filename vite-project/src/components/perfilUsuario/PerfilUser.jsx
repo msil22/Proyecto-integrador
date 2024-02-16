@@ -4,7 +4,7 @@ import './PerfilUser.css'
 export default function PerfilUsuario() {
   return (
     <>
-        <div>
+        <div className='headerUsuario'>
           <div className="container-fluid header">
             <img className="imagen" src="https://img.freepik.com/vector-premium/perfil-avatar-mujer-icono-redondo_24640-14047.jpg" alt=""/>
         </div>

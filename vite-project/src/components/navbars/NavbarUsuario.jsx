@@ -37,7 +37,7 @@ function NavbarUsuario() {
       <li class="nav-item dropdown" id="lista">
         <a href="#" className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="perfil"><i class="fa-solid fa-user"></i></a>
         <ul className="dropdown-menu bg-secondary" >
-          <Link to={"/"}><li><a className="dropdown-item" href="">Formulario empresa</a></li></Link>
+          <Link to={"inicio-sesion/inicio-administrador/formulario-empresa"}><li><a className="dropdown-item" href="">Formulario empresa</a></li></Link>
           <Link to={"/"}><li><a className="dropdown-item" href="">Mi CV</a></li></Link>
           <Link to={"/"}><li><a className="dropdown-item" href="">Mis Postulaciones</a></li></Link>
           <Link to={"/"}><li><a className="dropdown-item" href="">Mis Ofertas Guardadas</a></li></Link>

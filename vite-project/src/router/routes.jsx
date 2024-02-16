@@ -7,10 +7,10 @@ import FormularioE from '../views/FormularioE.jsx';
 import FormularioU from '../views/FormularioU.jsx';
 import PublicarOferta from '../views/PublicarOferta.jsx';
 import AutorizarPUsuario from '../views/AutorizarPUsuario.jsx';
-import PerfilUsuario from '../components/perfilUsuario/PerfilUser.jsx';
 import InicioSesion from '../components/inicioSesion/InicioSesion.jsx';
 import PerfilDeEmpresa from '../views/PerfilDeEmpresa.jsx';
 import RegularLosPerfiles from '../views/RegularLosPerfiles.jsx';
+import PerfilUsuarios from '../views/PerfilUsuarios.jsx';
 
 
 
@@ -44,10 +44,6 @@ const router = createBrowserRouter([
     element: <AutorizarPUsuario />
   },
   {
-    path: "perfil-usuario",
-    element: <PerfilUsuario />
-  },
-  {
     path: "inicio-sesion",
     element: <InicioSesion />
   },
@@ -58,6 +54,10 @@ const router = createBrowserRouter([
   {
     path:"regular-perfiles",
     element: <RegularLosPerfiles />
+  },
+  {
+    path:"perfil-usuarios",
+    element: <PerfilUsuarios />
   }
 ]);
 
