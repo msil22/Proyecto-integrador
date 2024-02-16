@@ -1,0 +1,63 @@
+/* Ver CV  */
+
+
+  
+  .modalModerarEmpresas {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    border: 1px solid #aaa;
+    color: white;
+  }
+  
+  .modal-contentModerarEmpresas {
+    text-align: center;
+  }
+  
+  .closeModerarEmpresas {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .verCV {
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #b9b9b9;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Agrega espacio entre los elementos en el eje de la columna */
+  }
+  
+  .modalModerarEmpresas img {
+    max-width: 80%; 
+    max-height: 80vh; 
+    display: block; 
+    margin: 0 auto; 
+  }
+  
+  .verCV .contenedores {
+    padding-bottom: 10px;
+  }
+  
+  .modalModerarEmpresas img {
+    max-width: 80%;
+    max-height: 80vh;
+    display: block;
+    margin: 0 auto;
+  }
