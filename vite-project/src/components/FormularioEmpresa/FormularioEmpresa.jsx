@@ -1,5 +1,6 @@
 import React from 'react'
 import './FormularioEmpresa.css'
+import { Link } from 'react-router-dom'
 
 function FormularioEmpresa() {
   return (
@@ -68,10 +69,9 @@ function FormularioEmpresa() {
             <input type="text" className="form-control" id="formGroupExampleInput7" placeholder="https://www.empresa.cl"/>
         </div>
         <div className="d-flex justify-content-end" id="Benviar">
-            <button id="miBoton">Enviar</button>
+            <Link to="/perfil-empresa"><button id="miBoton">Enviar</button></Link>
         </div>
     </div>
-   
     </>
   )
 }

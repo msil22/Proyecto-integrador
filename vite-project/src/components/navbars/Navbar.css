@@ -29,12 +29,11 @@
 
 .bi-person-circle {
   font-size: 2.5rem;
-  padding: 8px 19px;
   border-radius: 50%;
 }
 #lista{
   list-style-type: none;
-  padding-right: 100px;
+  margin-right: 200px;
 }
 
 .dropdown-menu{
@@ -54,4 +53,8 @@
 .card{
 
   padding: 20px;
+}
+
+link{
+  text-decoration: none;
 }

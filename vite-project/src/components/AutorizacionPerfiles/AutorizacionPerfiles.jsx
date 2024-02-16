@@ -1,6 +1,5 @@
 import React from 'react'
 import './AutorizacionPerfiles.css'
-import Footer from '../Footer/Footer.jsx'
 
 function AutorizacionPerfiles() {
   return (
@@ -11,7 +10,6 @@ function AutorizacionPerfiles() {
             <input type="submit" value="Volver"/>
         </form>
     </div>
-    <Footer />
     </>
   )
 }

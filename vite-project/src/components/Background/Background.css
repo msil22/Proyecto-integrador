@@ -33,7 +33,7 @@ video{
     background-size: cover;
 }
 
-.boton-empresa{
+#boton-empresa{
     background-color: rgb(231, 118, 37);
     color: white;
     font-size: 14px;
@@ -44,12 +44,12 @@ video{
     margin: 10px;
 }
 
-.boton-empresa:hover{
+#boton-empresa:hover{
     background-color: rgb(253, 214, 187);
     color: rgb(255, 81, 0);
 }
 
-.boton-usuario{
+#boton-usuario{
     background-color: rgb(19, 96, 196);
     color: white;
     font-size: 14px;
@@ -59,7 +59,7 @@ video{
     transition: 0.3s background-color;  
 }
 
-.boton-usuario:hover{
+#boton-usuario:hover{
     background-color: rgb(162, 203, 255);
     color: rgb(0, 0, 236);
 }

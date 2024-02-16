@@ -1,8 +1,10 @@
 import React from 'react'
 import './Background.css'
+import { Link } from 'react-router-dom'; 
 
 
-export default function Background() {
+
+function Background() {
   return (
     <>
     <div className='hero-container '>
@@ -13,8 +15,8 @@ export default function Background() {
         <h1>Acá Estamos</h1>
         <p>Descubre tu camino profesional en nuestra plataforma</p>
         <div className='buttons'>
-          <button className='boton-empresa'>Soy Empresa</button>
-          <button className='boton-usuario'>Soy Candidato</button>
+          <Link to="/formulario-empresa"><button id='boton-empresa'>Soy Empresa</button></Link>
+          <Link to="/formulario-usuario"><button id='boton-usuario'>Soy Candidato</button></Link>
         </div>
       </div>
     </div>
@@ -22,3 +24,4 @@ export default function Background() {
   )
 }
 
+export default Background

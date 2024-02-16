@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 
-export default function About() {
+function About() {
   return (
     <div className='about-container'>
         <div className='row'>
@@ -20,3 +20,5 @@ export default function About() {
     </div>
   )
 }
+
+export default About

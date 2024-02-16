@@ -1,12 +1,12 @@
 import React from 'react'
 import './EmpresaL.css'
 
-export default function Empresas() {
+function EmpresaR() {
   return (
     <>
-        <div data-aos="flip-right">
+        <div data-aos="flip-right" id='carta-derecha' className='cartasIndex'>
             <div className='row'>
-              <div className='col-5 position-absolute top-0 end-0'>
+              <div className='col-5 top-0 end-0'>
                 <div className='card '>
                   <img src='/logo-generico.png' className='card-img-top'/>
                   <div className='card-body'>
@@ -22,3 +22,5 @@ export default function Empresas() {
     </>
   )
 }
+
+export default EmpresaR

@@ -1,5 +1,6 @@
 import React from 'react'
 import './FormularioUser.css'
+import { Link } from 'react-router-dom'
 
 function FormularioUser() {
   return (
@@ -81,7 +82,7 @@ function FormularioUser() {
         </div>
 
         <div className="d-flex justify-content-end" id="Benviar">
-            <button id="miBoton">Enviar</button>
+            <Link to="/perfil-usuario"><button id="miBoton">Enviar</button></Link>
         </div>
     </div>
     </>
