@@ -5,6 +5,7 @@ import {createBrowserRouter, RouterProvider} from "react-router-dom"
 import App from './App.jsx'
 import AutorizacionPerfiles from './components/AutorizacionPerfiles/AutorizacionPerfiles.jsx'
 import ModerarEmpresas from './components/ModerarEmpresas/ModerarEmpresas.jsx'
+import InicioSesion from './components/InicioSesion/InicioSesion.jsx'
 
 
 
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: "moderarEmpresas",
     element: <ModerarEmpresas />
+  },
+  {
+    path: "inicioSesion",
+    element: <InicioSesion/>
   }
 ])
 
