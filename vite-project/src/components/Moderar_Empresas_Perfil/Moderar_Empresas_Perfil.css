@@ -44,6 +44,11 @@
 
 /*Body*/
 
+
+.container{
+    width: 80%;
+}
+
 .tarjetaEmpresa {
     margin: 1em;
     max-width: 30em;
@@ -67,6 +72,18 @@
 
 .postulacionesAbiertas{
     text-align: center;
+}
+
+.tarjeta{
+    background-color: lightsteelblue;
+}
+
+.iconoEditar{
+    text-align: center;
+}
+
+.requisitoFuncion{
+    margin: 1em;
 }
 
 .text-section {
