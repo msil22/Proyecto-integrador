@@ -46,12 +46,12 @@ function RegularPerfiles() {
                 <p>Nombre Apellido | Fecha de Registro | <b> Por revisar </b></p>
                 <button type="button" class="btn btn-info" onClick={() => openModal('/CV.jpg')}>Ver CV</button>
             </div>
-            <div className='perfil-aceptado'>
-                <p>Nombre Apellido | Fecha de Registro | <b> Perfil Aceptado </b></p>
+            <div className='perfil-revisar'>
+                <p>Nombre Apellido | Fecha de Registro | <b> Por revisar </b></p>
                 <button type="button" class="btn btn-info" onClick={() => openModal('/CV.jpg')}>Ver CV</button>
             </div>
-            <div className='perfil-rechazado'>
-                <p>Nombre Apellido | Fecha de Registro | <b> Perfil Rechazado </b></p>
+            <div className='perfil-revisar'>
+                <p>Nombre Apellido | Fecha de Registro | <b> Por revisar </b></p>
                 <button type="button" class="btn btn-info" onClick={() => openModal('/CV.jpg')}>Ver CV</button>
             </div>
         </div>
