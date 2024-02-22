@@ -5,12 +5,13 @@ import ModerarEmpresas from '../views/ModerarEmpresas.jsx';
 import InicioAdmin from '../views/InicioAdmin.jsx';
 import FormularioE from '../views/FormularioE.jsx';
 import FormularioU from '../views/FormularioU.jsx';
-import PublicarOferta from '../views/PublicarOferta.jsx';
 import AutorizarPUsuario from '../views/AutorizarPUsuario.jsx';
 import InicioSesion from '../components/inicioSesion/InicioSesion.jsx';
 import PerfilDeEmpresa from '../views/PerfilDeEmpresa.jsx';
 import RegularLosPerfiles from '../views/RegularLosPerfiles.jsx';
 import PerfilUsuarios from '../views/PerfilUsuarios.jsx';
+import Moderar_Empresas_Perfil from '../components/Moderar_Empresas_Perfil/Moderar_Empresas_Perfil.jsx';
+import TipoDeEstado from '../views/EstadoUsuario.jsx';
 
 
 
@@ -36,11 +37,7 @@ const router = createBrowserRouter([
     element: <FormularioU />
   },
   {
-    path: "formulario-oferta",
-    element: <PublicarOferta />
-  },
-  {
-    path: "inicio-sesion/inicio-administrador/autorizar-perfil-usuario",
+    path: "autorizar-perfil-usuario",
     element: <AutorizarPUsuario />
   },
   {
@@ -58,7 +55,15 @@ const router = createBrowserRouter([
   {
     path:"perfil-usuarios",
     element: <PerfilUsuarios />
-  }
+  },
+  {
+    path: "moderar-empresas-perfil",
+    element: <Moderar_Empresas_Perfil />
+  },
+  {
+    path: "estado-usuario",
+    element: <TipoDeEstado />
+  },
 ]);
 
 

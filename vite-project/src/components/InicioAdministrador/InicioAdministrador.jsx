@@ -77,13 +77,12 @@ function InicioAdministrador() {
 		</div>
 	</div>
 
-	<div className="container-fluid text-center">
-		<Link to="autorizar-perfil-usuario"><button type="button" className="btn btn-primary btn-lg btn-block">Aceptar o rechazar perfiles
+	<div className="container-fluid text-center" id='dosBotones'>
+		<Link to="autorizar-perfil-usuario "><button type="button" className="btn btn-primary btn-lg btn-block" style={{marginRight: '100px'}}>Aceptar o rechazar perfiles
 			de usuario</button></Link>
 		<button type="button" className="btn btn-secondary btn-lg btn-block">Reportar
 			usuario/empresa</button>
 	</div>
-
 	<div/>
     </>
   )

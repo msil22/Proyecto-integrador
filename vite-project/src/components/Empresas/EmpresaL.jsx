@@ -5,8 +5,8 @@ function EmpresaL() {
   return (
     <>
         <div data-aos="flip-left" className='cartasIndex'>
-            <div className='row'>
-              <div className='col-5 top-0 start-0'>
+            <div>
+              <div className='col-lg-5 order-lg-1 order-2'>
                 <div className='card '>
                   <img src='/logo-generico.png' className='card-img-top'/>
                   <div className='card-body'>
@@ -17,7 +17,6 @@ function EmpresaL() {
                 </div>
               </div>
             </div>
-
         </div>
     </>
   )

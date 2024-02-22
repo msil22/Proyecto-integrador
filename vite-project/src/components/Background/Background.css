@@ -63,3 +63,11 @@ video{
     background-color: rgb(162, 203, 255);
     color: rgb(0, 0, 236);
 }
+
+#acaestamostit{
+  font-family: heavitas;
+}
+
+#tituloSec{
+  font-family: poppins, bold;
+}
