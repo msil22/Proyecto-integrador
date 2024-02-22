@@ -13,7 +13,9 @@ import RegularPerfiles from './components/Administrador/RegularPerfiles'
 function App(){
   return (
     <>
-      <RegularPerfiles />
+    <Navbar />
+    <Background />
+    <About/>
     </>
   )
 }
