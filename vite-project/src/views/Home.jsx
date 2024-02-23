@@ -5,14 +5,16 @@ import About from '../components/About/About'
 import Cursos from '../components/Cursos/Cursos'
 import PerfilEmpresa from '../components/Perfil/Perfil-empresa'
 import RevisarCurriculum from '../components/Curriculum/Revisar-curriculum'
+import Tabla from '../components/Tabla/Tabla'
 
 function Home() {
   return (
     <>
     <Navbar />
+    <Background />
     <About />
     <Cursos />
-    <RevisarCurriculum />
+    <Tabla />
     </>
   )
 }
