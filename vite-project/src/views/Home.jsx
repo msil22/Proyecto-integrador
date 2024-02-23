@@ -6,7 +6,7 @@ import EmpresaL from '../components/Empresas/EmpresaL.jsx'
 import EmpresaR from '../components/Empresas/EmpresaR.jsx'
 import Background from '../components/Background/Background.jsx'
 import CarruselEmpresas from '../components/carruselEmpresas/CarruselEmpresas.jsx'
-
+import Cursos from '../components/cursos/Cursos.jsx'
 
 function Home() {
   return (
@@ -14,6 +14,7 @@ function Home() {
     <Navbar />
     <Background />
     <About />
+    <Cursos />
     <CarruselEmpresas />
     <br />
     <br />

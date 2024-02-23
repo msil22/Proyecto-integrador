@@ -4,8 +4,8 @@ import './EmpresaL.css'
 function EmpresaL() {
   return (
     <>
-        <div data-aos="flip-left" className='cartasIndex'>
-            <div>
+      <div data-aos="flip-left" className='cartasIndex'>
+          <div>
               <div className='col-lg-5 order-lg-1 order-2'>
                 <div className='card '>
                   <img src='/logo-generico.png' className='card-img-top'/>
