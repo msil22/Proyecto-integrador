@@ -1,6 +1,5 @@
 import React from 'react'
 import Navbar from '../components/navbars/NavbarUsuario.jsx'
-import Footer from '../components/footer/Footer.jsx'
 import PerfilUsuario from '../components/perfilUsuario/PerfilUser.jsx'
 import BotonChat from '../components/botonChat/BotonChat.jsx'
 
@@ -10,7 +9,6 @@ function PerfilUsuarios() {
     <Navbar />
     <PerfilUsuario />
     <BotonChat />
-    <Footer />
     </>
   )
 }

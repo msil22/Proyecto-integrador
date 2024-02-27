@@ -11,6 +11,9 @@ import InicioSesion from '../components/inicioSesion/InicioSesion.jsx';
 import PerfilDeEmpresa from '../views/PerfilDeEmpresa.jsx';
 import RegularLosPerfiles from '../views/RegularLosPerfiles.jsx';
 import PerfilUsuarios from '../views/PerfilUsuarios.jsx';
+import RegistroUsuario from '../views/RegistroUsuario.jsx';
+import RegistrateUsuario from '../views/Registrate.jsx';
+
 
 
 
@@ -58,6 +61,14 @@ const router = createBrowserRouter([
   {
     path:"perfil-usuarios",
     element: <PerfilUsuarios />
+  },
+  {
+    path:"registro-usuario",
+    element: <RegistroUsuario />
+  },
+  {
+    path:"registrate",
+    element: <RegistrateUsuario />
   }
 ]);
 
