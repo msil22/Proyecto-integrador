@@ -4,15 +4,19 @@
     box-sizing: border-box;
 }
 
-body {
+#grandediv {
     margin: 0;
+    display: flex;
     place-items: center;
     min-width: 320px;
     min-height: 100vh;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url("./fondo2.jpg");
+    background-image: url("./cerrohdrenca.jpeg");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
 }
 
 .tituloRegistro {

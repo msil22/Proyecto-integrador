@@ -4,6 +4,7 @@ import { FaUser, FaLock } from "react-icons/fa";
 
 function Registrate() {
   return (
+    <div id='divgrande'>
     <div className='wrappers'>
         <form action="">
             <h1 className='tituloRegistros'>Registro</h1>
@@ -26,6 +27,7 @@ function Registrate() {
             <button type="submit">Regístrate</button>
         </form>
 
+    </div>
     </div>
   )
 }

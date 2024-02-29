@@ -5,10 +5,12 @@ import { Link } from 'react-router-dom'
 function FormularioUser() {
   return (
     <>
+    <div id='ffondo'>
     <div className="fregistro">
-        <p>Formulario de registro</p>
     </div>
     <div id="formulario-container">
+    <h2>Formulario de registro</h2>
+    <h2>Usuario</h2>
         <div className="mb-3" id="primerFormulario">
             <label for="formGroupExampleInput" className="form-label">Nombre</label>
             <input type="text" className="form-control" id="formGroupExampleInput" placeholder="Juan Perez"/>
@@ -84,6 +86,7 @@ function FormularioUser() {
         <div className="d-flex justify-content-end" id="Benviar">
             <Link to="/perfil-usuarios"><button id="miBoton">Enviar</button></Link>
         </div>
+    </div>
     </div>
     </>
   )

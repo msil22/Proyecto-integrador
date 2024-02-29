@@ -5,6 +5,7 @@ import { FaUser, FaLock } from "react-icons/fa";
 
 function Registro() {
   return (
+    <div id='grandediv'>
     <div className='wrapper'>
         <form className="ingreso"  action="">
             <h1 className='tituloRegistro'>Ingresa</h1>
@@ -27,6 +28,7 @@ function Registro() {
             </div>
         </form>
 
+    </div>
     </div>
   )
 }
