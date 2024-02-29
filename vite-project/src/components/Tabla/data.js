@@ -1,7 +1,7 @@
 const usersData = [
     {id:1, nombre: 'Juan Perez', edad: 26, profesion: 'Gasfiter', disponibilidad: 'Búsqueda Activa'},
     {id:2, nombre: 'Pedro Gonzalez', edad: 30, profesion: 'Contador(a)', disponibilidad: 'Disponible'},
-    {id:3, nombre: 'Jimena Romera', edad: 45, profesion: 'Psicólogo(a)', disponibilidad: 'No disponible'},
+    {id:3, nombre: 'Jimena Romgit era', edad: 45, profesion: 'Psicólogo(a)', disponibilidad: 'No disponible'},
     {id:4, nombre: 'María Rodriguez', edad: 53, profesion: 'Profesor(a)', disponibilidad: 'Disponible'},
     {id:5, nombre: 'Juan García', edad: 18, profesion: 'No Informada', disponibilidad: 'Búsqueda Activa'},
     {id:6, nombre: 'Silvia Sanchéz', edad: 21, profesion: 'Garzón(a)', disponibilidad: 'Disponible'},

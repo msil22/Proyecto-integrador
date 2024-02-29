@@ -4,7 +4,7 @@ import './Cursos.css'
 
 function Cursos() {
   return (
-    <div className='container-curso'>
+    <div className='container-curso' id='cursos'>
         <Link to='/'>
             <img id='img-curso' src="/group.jpg" alt="" />
         <div className='container-texto'>  

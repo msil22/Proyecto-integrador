@@ -1,41 +1,83 @@
-import React, { useState} from 'react';
+import React, { useEffect, useState} from 'react';
 import './Navbar.css';
-import { Link } from 'react-router-dom'; 
+import {FaBars, FaTimes} from 'react-icons/fa';
+import { Link } from 'react-scroll'; 
+
 
 function Navbar() {
-    const [navbar, setNavbar] = useState(false);
+  const [navbar, setNavbar] = useState(false);
 
-    const changeNav = () => {
-      if (window.scrollY >= 56){
-        setNavbar(true)
-      } else{
-        setNavbar(false)
-      }
-    };
+  const changeNav = () => {
+    if (window.scrollY >= 56){
+      setNavbar(true)
+    } else{
+      setNavbar(false)
+    }
+  };
 
-    window.addEventListener('scroll', changeNav);
+  window.addEventListener('scroll', changeNav);
+
+
   return (
     <>
-    <nav className={navbar ? 'navbar active navbar-expand-md fixed-top' : 'navbar navbar-expand-md fixed-top'}>
-        <div className="container-fluid">
-
-            <Link to="/"><a className="navbar-brand" href="#">
-              <img src='../../public/Renca_B&W.png' height="50" />
-            </a></Link>
-            <div className="collapse navbar-collapse" id="menu">
-                <ul className="navbar-nav justify-content-center align-items-center flex-grow-1">
-                    <li className="nav-item">
-                        <Link to="/"><a href="#" className="nav-link active"><img src="../../public/acaestamoslogo.png" alt="" height="100"/></a></Link>
-                    </li>
-                </ul>
-            </div>
-            <div>
-              <Link to="inicio-sesion"><a href="#" className="usuario-button" >Ingresar</a></Link>
-            </div>
-        </div>
-    </nav>
-  </>
+      <nav className= {navbar ? 'navbar active navbar-expand-lg fixed-top' : 'navbar navbar-expand-lg fixed-top'}>
+  <div className="container-fluid">
+    <a className="navbar-brand" href="#"><img src="/acaestamoslogo.png" alt="logo" height={130} /></a>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse " id="navbarNav">
+      <ul className="navbar-nav ms-auto">
+        <li className="nav-item">
+          <Link to='acerca-de' className="nav-link" spy={true} offset={-56} duration={500}>Acerca de</Link>
+        </li>
+        <li className="nav-item">
+          <Link to='empresas' className="nav-link"  spy={true} offset={-100} duration={500}>Empresas Colaboradoras</Link>
+        </li>
+        <li className="nav-item">
+          <Link to='/' className="usuario-button" spy={true} offset={50} duration={500}>Ingresar</Link>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    </>
   )
 }
+
+
+
+// function Navbar() {
+//   const [click, setClick] = useState(false);
+
+//   const handleClick = () => setClick(!click);
+
+//   const closeMenu = () => setClick(false)
+
+
+//   return (
+//     <>
+//     <div className='header-nav'>
+//       <nav className='navbar'>
+//         <Link to='/' className='logo-ae'><img src="/acaestamoslogo.png" alt="" width={200} /></Link>
+//         <div className='hamburguer' onClick={handleClick}>
+//           {click ? (<FaTimes size={30} />) : (<FaBars size={30} />)}
+//         </div>
+//         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+//           <li className="nav-item">
+//             <Link to='/' className="nav-link" id='empresas' spy={true} offset={50} duration={500} onClick={closeMenu}>Empresas Colaboradoras</Link>
+//           </li>
+//           <li className="nav-item">
+//             <Link to='about' className="nav-link" spy={true} offset={-56} duration={500} >Acerca de</Link>
+//           </li>
+//           <li className="nav-item">
+//             <Link to='/' className="usuario-button" spy={true} offset={50} duration={500} >Ingresar</Link>
+//           </li>
+//         </ul>
+//       </nav>
+//     </div>
+//     </>
+//   )
+// }
 
 export default Navbar

@@ -17,12 +17,27 @@
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 1;
+    z-index: 0;
 }
 
 .text-container{
     position: relative;
+    text-align: center;
     z-index: 2;
+}
+
+.text-container h1{
+    font-family: 'Heavitas', sans-serif;
+    font-size: 3.2rem;
+}
+
+.text-container p{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 1.1rem;
+}
+
+.buttons{
+    font-family: 'Poppins', sans-serif; 
 }
 
 video{
@@ -60,6 +75,6 @@ video{
 }
 
 .boton-usuario:hover{
-    background-color: rgb(162, 203, 255);
-    color: rgb(0, 0, 236);
+    background-color: rgb(85, 149, 233);
+    color: rgb(0, 18, 179);
 }

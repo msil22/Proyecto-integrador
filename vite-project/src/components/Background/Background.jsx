@@ -11,7 +11,8 @@ export default function Background() {
       </div>
       <div className='text-container'>
         <h1>Acá Estamos</h1>
-        <p>Descubre tu camino profesional en nuestra plataforma</p>
+        <p>Explora tu potencial profesional aquí.</p>
+        <p>¡Regístrate para desbloquear un mundo de posibilidades!</p>
         <div className='buttons'>
           <button className='boton-empresa'>Soy Empresa</button>
           <button className='boton-usuario'>Soy Candidato</button>

@@ -1,0 +1,13 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.dropdown-menu{
+    margin-right: 10px;
+}
+
+.dropdown .fa-user{
+    font-size: 1.5em;
+}

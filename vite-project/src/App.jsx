@@ -6,6 +6,7 @@ import About from './components/About/About'
 import PerfilEmpresa from './components/Perfil/Perfil-empresa'
 import PerfilUsuario from './components/Perfil/Perfil-usuario'
 import RegularPerfiles from './components/Administrador/RegularPerfiles'
+import Cursos from './components/Cursos/Cursos'
 
 
 
@@ -16,6 +17,7 @@ function App(){
     <Navbar />
     <Background />
     <About/>
+    <Cursos />
     </>
   )
 }
