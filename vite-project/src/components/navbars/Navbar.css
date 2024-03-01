@@ -55,6 +55,10 @@
   padding: 20px;
 }
 
-link{
+Link{
+  text-decoration: none;
+}
+
+#Linke{
   text-decoration: none;
 }
