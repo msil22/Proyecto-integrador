@@ -1,0 +1,59 @@
+.nombre-empresa {
+  font-family: 'Heavitas', sans-serif;
+}
+
+.redes li {
+  font-family: 'Poppins', sans-serif; 
+
+}
+
+.emp-header{
+  margin-top: 90px;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  height: 250px;
+  background-image: url('https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+.logo{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.nombre-empresa{
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 20px;
+}
+.redes{
+  list-style: none;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.redes i{
+  margin: 0px 5px 0px 20px;
+}
+
+.redes a{
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #000;
+}
+.redes a:hover{
+  color: #9ac837;
+}
+.nosotros-empresa{
+  font-family: 'Poppins', sans-serif; 
+  margin: 50px;
+  padding: 50px;
+  background-color: rgba(2, 327, 202, 0.2);
+}
+
+.tabla-talento h2{
+  font-family: 'Poppins', sans-serif; 
+  text-align: center;
+  padding-top: 50px;
+}

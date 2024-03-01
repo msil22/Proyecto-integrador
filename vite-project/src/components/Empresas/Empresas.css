@@ -1,0 +1,16 @@
+.companies-container{
+    margin: 60px 20px;
+    text-align: center;
+}
+
+.companies-container h2{
+    font-family: 'Heavitas', sans-serif;
+    color: rgb(51, 50, 50);
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+}
+
+.carrusel-section{
+    margin-top: 60px ;
+}
