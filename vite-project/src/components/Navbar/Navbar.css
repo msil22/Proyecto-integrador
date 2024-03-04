@@ -64,14 +64,16 @@
     }
 
     .navbar.active .navbar-nav {
-      background-color: white;
+    background-color: white;
     }
-  
+
     .navbar.active .navbar-nav .nav-link {
-      color: black;
+    color: black;
     }
 
     .navbar .navbar-nav {
         align-items: center;
     }
 }
+
+

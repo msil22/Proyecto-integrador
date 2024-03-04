@@ -6,20 +6,18 @@ function RegularPerfiles() {
     const modal = document.getElementById('myModal');
     const modalImage = document.getElementById('modalImage');
 
-    // Establece la fuente de la imagen del modal
     modalImage.src = imageSrc;
 
-    // Muestra el modal
     modal.style.display = 'block';
   };
 
   const closeModal = () => {
     const modal = document.getElementById('myModal');
-    // Oculta el modal
+
     modal.style.display = 'none';
   };
 
-  // Cierra el modal si se hace clic fuera de él
+
   const handleOutsideClick = (event) => {
     const modal = document.getElementById('myModal');
     if (event.target === modal) {

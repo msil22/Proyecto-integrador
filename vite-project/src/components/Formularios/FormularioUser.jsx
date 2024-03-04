@@ -84,7 +84,7 @@ function FormularioUser() {
         </div>
 
         <div className="d-flex justify-content-end" id="Benviar">
-            <Link to="/perfil-usuarios"><button id="miBoton">Enviar</button></Link>
+            <Link to={"/feed-usuario"}><button id="miBoton">Enviar</button></Link>
         </div>
     </div>
     </div>

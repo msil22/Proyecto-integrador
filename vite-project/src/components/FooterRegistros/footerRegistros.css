@@ -1,4 +1,5 @@
-.contenedor-filas {
+.contenedor-fila {
+  padding-top: 100px;
   display: flex;
   overflow-x: auto;
   width: 100%;

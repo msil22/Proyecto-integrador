@@ -12,10 +12,10 @@ function InicioSesion() {
                             <h2>Inicia sesión</h2>
                             <form action="#">
                                 <label for="correo">Correo electrónico:</label>
-                                <input type="email" id="correo" name="correo" required />
+                                <input type="email" id="correo" name="correo"  />
                                 <label for="correo">Contraseña:</label>
-                                <input type="contraseña" id="contraseña" name="contraseña" required />
-                                <Link to="inicio-administrador"><button type="submit">Ingresar</button></Link>
+                                <input type="contraseña" id="contraseña" name="contraseña"  />
+                                <Link to={"/inicio-administrador"}><button type="submit">Ingresar</button></Link>
                             </form>
                         </div>
                     </div>

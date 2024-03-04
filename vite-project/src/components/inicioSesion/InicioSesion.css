@@ -6,13 +6,13 @@
   background-position: center center;
 }
 
-/* Contenido principal */
+
 main {
   min-height: calc(100vh - 10px - 10px); 
-   /* Ajusta la altura según el tamaño del header y footer */
+
 }
 
-/*registro*/
+
 .registro-flotante {
   position: absolute;
   top: 50%;
@@ -55,7 +55,7 @@ main {
   background-color: #106f2e;
 }
 
-/*registro 2*/
+
 .cuadrado {
   background-color: #ffffff;
   color: #ffffff;

@@ -1,11 +1,11 @@
 import React from 'react'
-import './Footer.css'
+import './FooterRegistros.css'
 import Iframe from 'react-iframe'
 
 function Footer() {
   return (
   <>
-  <div className="contenedor-filas">
+  <div className="contenedor-fila">
 	<div className="bloque naranjo"></div>
 	<div className="bloque amarillo"></div>
 	<div className="bloque verde"></div>

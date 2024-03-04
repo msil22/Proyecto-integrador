@@ -10,15 +10,15 @@ function RegistroUser() {
         <form action="">
             <h1 className='tituloRegistros'>Registro</h1>
             <div className="input-boxs">
-                <input type="text" placeholder='Correo' required/>
+                <input type="text" placeholder='Correo' />
                 <FaUser className='iconss' />
             </div>
             <div className="input-boxs">
-                <input type="password" placeholder='Contraseña' required/>
+                <input type="password" placeholder='Contraseña' />
                 <FaLock className='iconss'/>
             </div>
             <div className="input-boxs">
-                <input type="password" placeholder='Repetir Contraseña' required/>
+                <input type="password" placeholder='Repetir Contraseña' />
                 <FaLock className='iconss'/>
             </div>
             <div className="remember-forgots">

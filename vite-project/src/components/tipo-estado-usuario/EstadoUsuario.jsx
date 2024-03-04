@@ -32,7 +32,7 @@ const DisponibilidadTab = () => {
   };
 
   return (
-    <div className="container mt-5 text-center">
+    <div className="container mt-5 text-center" id='espacio-disponibilidad'>
       <h2>Estado de Disponibilidad</h2>
       <div className="btn-group mt-3" role="group">
         {estadosDisponibilidad.map((estado, index) => (
