@@ -1,4 +1,4 @@
-body {
+#pan {
     background-color: #e8f0f3; /* Light grayish background */
     color: #343a40; /* Dark grayish text */
   }
@@ -6,8 +6,8 @@ body {
     color: hsl(211, 100%, 50%); /* Light blue primary color (Bootstrap) */
   }
 
-  /* Style headers with primary color and subtle gradient */
-  h2, h3 {
+  /* Style3 headers with primary color and subtle gradient */
+  #unico, #lala  {
     color: #1109b2;
     background: linear-gradient(to bottom, rgba(0, 123, 255, 0.1) 0%, rgba(0, 123, 255, 0) 100%);
     padding: 1rem;
@@ -15,7 +15,7 @@ body {
   }
 
   /* Add subtle hover effects for interactive elements */
-  a:hover {
+  .as:hover {
     text-decoration: none;
     opacity: 0.8;
   }

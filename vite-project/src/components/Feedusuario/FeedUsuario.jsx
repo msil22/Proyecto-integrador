@@ -6,11 +6,11 @@ import './feedusuario.css'
 function FeedUsuario() {
   return (
     <>
-    <main>
+    <main id="pan">
     <section className="container" id="mmm">
       <div className="row mt-5">
         <div className="col-md-8">
-          <h2>¡Bienvenido a Acá Estamos!</h2>
+          <h2 id="unico">¡Bienvenido a Acá Estamos!</h2>
           <p>Hola, <strong>Nombre de usuario</strong>. Te has conectado exitosamente a la plataforma.</p>
           <p>¿Qué deseas hacer hoy?</p>
           <ul className="list-unstyled">
@@ -27,7 +27,7 @@ function FeedUsuario() {
         <div className="col-md-4">
           <div className="cardi">
             <div className="card-header">
-              <h3>Consejos para tu búsqueda</h3>
+              <h3 id="lala">Consejos para tu búsqueda</h3>
             </div>
             <div className="card-body">
               <ul className="list-unstyled">
@@ -45,7 +45,7 @@ function FeedUsuario() {
         <div className="card">
             <div className="imagen1"></div>
              <div className="content">
-               <a href="#">
+               <a href="#" className="as">
                  <span className="title">
                    Como tener una entrevista online exitosa:
                  </span>
@@ -59,7 +59,7 @@ function FeedUsuario() {
            <div className="card">
             <div className="imagen2"></div>
              <div className="content">
-               <a href="#">
+               <a href="#" className="as"> 
                  <span className="title">
                     Escucha atentamente la pregunta completa antes de responder.
                  </span>
