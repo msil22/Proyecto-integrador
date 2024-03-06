@@ -73,8 +73,7 @@ function RevisarCurriculum() {
                 <div id="flush-collapseFive" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                     <div className="accordion-body">
                         <div className='contacto'>
-                            <p>Teléfono: +569 9876 5432</p>
-                            <p>Correo: correo@correo.com</p>
+                            <a  href="mailto:correo@gmail.com" className='btn btn--contact boton-contacto' >Enviar Correo</a>
                         </div>
                     </div>
                 </div>

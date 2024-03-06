@@ -5,6 +5,7 @@ import About from '../components/About/About.jsx'
 import Empresas from '../components/Empresas/Empresas.jsx'
 import Cursos from '../components/Cursos/Cursos.jsx'
 import Footer from '../components/Footer/Footer.jsx'
+import ContactUs from '../components/Contact/ContactUs.jsx'
 
 
 function Home() {
@@ -15,6 +16,7 @@ function Home() {
     <About />
     <Empresas />
     <Cursos />
+    <ContactUs />
     <Footer />
     </>
   )

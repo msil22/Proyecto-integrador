@@ -14,3 +14,20 @@
 .carrusel-section{
     margin-top: 60px ;
 }
+
+@media(max-width:970px){
+    .companies-title h2{
+        font-size: 2rem;
+    }
+
+    .card-section{
+        display: flex;
+        justify-content: column;
+        align-items: center;
+    }
+
+    .card{
+        width: 100%;
+        margin: 10px 0;
+    }
+} 

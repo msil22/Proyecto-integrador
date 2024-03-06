@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import './Navbar.css';
-import { Link } from 'react-router-dom'; 
+import { Link } from 'react-scroll'; 
+import { Link as RouterLink } from 'react-router-dom';
 
 
 function Navbar() {
@@ -34,7 +35,10 @@ function Navbar() {
           <Link to={'empresas'} className="nav-link"  spy={true} offset={-100} duration={500}>Empresas Colaboradoras</Link>
         </li>
         <li className="nav-item">
-          <Link to={'/inicio-sesion'} className="usuario-button" spy={true} offset={50} duration={500}>Ingresar</Link>
+          <Link to={'contactus'} className="nav-link"  spy={true} offset={-100} duration={500}>Contáctanos</Link>
+        </li>
+        <li className="nav-item">
+          <RouterLink to={'/inicio-sesion'} className="usuario-button">Ingresar</RouterLink>
         </li>
       </ul>
     </div>

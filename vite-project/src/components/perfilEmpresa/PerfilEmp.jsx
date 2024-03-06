@@ -10,7 +10,7 @@ function PerfilEmp() {
             <img className="logo" src="https://img.freepik.com/vector-premium/logotipo-cubo-generico_9569-169.jpg?w=740" alt=""/>
         </div>
         <h1 className="nombre-empresa">NOMBRE EMPRESA</h1>
-            <ul className="redes">
+            <ul className="redes-empresa">
                 <li>
                     <i className="bi bi-globe"></i><a href="">Web</a>
                 </li>

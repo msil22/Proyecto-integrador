@@ -5,7 +5,7 @@ import Iframe from 'react-iframe'
 function Footer() {
   return (
   <>
-  <div className="contenedor-filas">
+  <div className="contenedor-fila">
 	<div className="bloque naranjo"></div>
 	<div className="bloque amarillo"></div>
 	<div className="bloque verde"></div>
@@ -40,7 +40,7 @@ function Footer() {
 		<p className="numContacto">+56 2 2685 6600</p>
 		<p className="numContacto">contacto@renca.cl</p>
 	</div>
-	<div className="redes">
+	<div className="redes-footer">
 		<p id="encuentranos">Encuéntranos</p>
 		<a href="">
 			<i className="fa-brands fa-youtube"></i>

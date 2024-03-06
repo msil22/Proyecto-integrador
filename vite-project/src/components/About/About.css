@@ -45,7 +45,8 @@
 
 @media(max-width:1190px){
   .about-image{
-      height: 400px;
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -53,20 +54,20 @@
   .about-image{
       width: 100%;
       height: auto;
-      display: none;
   }
   .about-container{
       justify-content: center;
       padding-top: 0px;
       text-align: center;
       margin-top: 0px;
+      flex-direction: column;
   }
   .about-image, .about-text{
       width: 90%;
       margin: 10px auto;
   }
   .about-text h2{
-      font-size: 4rem;
+      font-size: 2rem;
   }
   .about-text p{
       width: 100%;
