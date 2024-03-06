@@ -1,128 +1,122 @@
 #pan {
-    background-color: #e8f0f3; /* Light grayish background */
-    color: #343a40; /* Dark grayish text */
-  }
-  .primary {
-    color: hsl(211, 100%, 50%); /* Light blue primary color (Bootstrap) */
-  }
+  background-color: #e8f0f3;
+  color: #343a40;
+}
 
-  /* Style3 headers with primary color and subtle gradient */
-  #unico, #lala  {
-    color: #1109b2;
-    background: linear-gradient(to bottom, rgba(0, 123, 255, 0.1) 0%, rgba(0, 123, 255, 0) 100%);
-    padding: 1rem;
-    border-radius: 5px;
-  }
+.primary {
+  color: hsl(211, 100%, 50%);
+}
 
-  /* Add subtle hover effects for interactive elements */
-  .as:hover {
-    text-decoration: none;
-    opacity: 0.8;
-  }
+.as:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
 
-  /* Example of using an icon */
-  .fa-envelope {
-    color: #007bff;
-  }
+.cartas {
+  max-width: 300px;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid transparent;
+  margin-left: 30px;
+  margin-top: 100px;
+}
 
-  .card {
-    max-width: 300px;
-    border-radius: 0.5rem;
-    background-color: #fff;
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-    border: 1px solid transparent;
-    margin-left: 30px;
-    margin-top: 100px;
-  }
-  
-  .card a {
-    text-decoration: none
-  }
-  
-  .content {
-    padding: 1.1rem;
-  }
-  
-  .imagen1 {
-    object-fit: cover;
-    width: 100%;
-    height: 150px;
-    background-color: rgb(239, 205, 255);
-    background-image: url("../../../public/img11.jpg");
-  }
+.card a {
+  text-decoration: none;
+}
 
-  .imagen2 {
-    width: 100%;
-    height: 150px;
-    background-color: rgb(239, 205, 255);
-    background-image: url("../../../public/img2.webp");
-    background-size: cover;
-    
-  }
+.content {
+  padding: 1.1rem;
+}
 
-  .imagen3 {
-    object-fit: cover;
-    width: 100%;
-    height: 150px;
-    background-color: rgb(239, 205, 255);
-    background-image: url("../../../public/img1.jpg");
-    background-size: cover;
-  }
-  
-  .title {
-    color: #111827;
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-    font-weight: 600;
-  }
-  
-  .desc {
-    margin-top: 0.5rem;
-    color: #6B7280;
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
-  
-  .action {
-    display: inline-flex;
-    margin-top: 1rem;
-    color: #ffffff;
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-    font-weight: 500;
-    align-items: center;
-    gap: 0.25rem;
-    background-color: #2563EB;
-    padding: 4px 8px;
-    border-radius: 4px;
-  }
-  
-  .action span {
-    transition: .3s ease;
-  }
-  
-  .action:hover span {
-    transform: translateX(4px);
-  }
-#consejos{
-    display: flex;
-    margin-left: 100px;
+.imagen1 {
+  object-fit: cover;
+  width: 100%;
+  height: 150px;
+  background-color: rgb(239, 205, 255);
+  background-image: url("../../../public/img11.jpg");
+}
+
+.imagen2 {
+  width: 100%;
+  height: 150px;
+  background-color: rgb(239, 205, 255);
+  background-image: url("../../../public/img2.webp");
+  background-size: cover;
+}
+
+.imagen3 {
+  object-fit: cover;
+  width: 100%;
+  height: 150px;
+  background-color: rgb(239, 205, 255);
+  background-image: url("../../../public/img1.jpg");
+  background-size: cover;
+}
+
+.title {
+  color: #111827;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
+.desc {
+  margin-top: 0.5rem;
+  color: #6B7280;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.action {
+  display: inline-flex;
+  margin-top: 1rem;
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  align-items: center;
+  gap: 0.25rem;
+  background-color: #2563EB;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.action span {
+  transition: .3s ease;
+}
+
+.action:hover span {
+  transform: translateX(4px);
+}
+
+#consejos {
+  display: flex;
+  margin-left: 100px;
 }
 
 .list-unstyled li a {
-    text-decoration: none;
-    color: #1109b2;
-
-
+  text-decoration: none;
+  color: #1109b2;
 }
 
-.grr{
-    margin-left: 300px;
-    margin-top: 100px;
-    width: 2000px;
+/*.grr {
+  margin-left: 300px;
+  margin-top: 100px;
+  width: 2000px;
+}*/
+
+#mmm {
+  padding-left: 300px;
+  margin-top: 110px;
 }
 
-#mmm{
-    padding-left: 300px;
-}
+.alert {
+  flex-direction: row;
+} 
 
+#miau{
+  margin-top: 100px;
+  padding-top: 100px;
+}
