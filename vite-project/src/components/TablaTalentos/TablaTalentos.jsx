@@ -42,6 +42,7 @@ function Tabla() {
                     <th>Nombre</th>
                     <th>Edad</th>
                     <th>Profesión / Oficio</th>
+                    <th>Último cargo</th>
                     <th>Disponibilidad</th>
                 </tr>
             </thead>
@@ -52,6 +53,7 @@ function Tabla() {
                         <td>{user.nombre}</td>
                         <td>{user.edad}</td>
                         <td>{user.profesion}</td>
+                        <td>{user.ultimo}</td>
                         <td>{user.disponibilidad}</td>
                     </tr>
                     {selectedUser === user && (

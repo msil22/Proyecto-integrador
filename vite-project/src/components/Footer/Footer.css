@@ -50,14 +50,13 @@ footer{
   display: flex;
 }
 
-.redes{
+.redes-footer{
   margin-left: auto;
   display: flex;
   flex-direction: column;
 }
 
 #encuentranos{
-  padding-right: 20px;
   color: white;
 }
 
