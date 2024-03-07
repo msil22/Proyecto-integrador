@@ -13,7 +13,7 @@ function FormularioOferta() {
             </div>
             <div className="row area">
                 <div className="col-md-6">
-                    <label className="form-label" for="ciudad">Área</label>
+                    <label className="form-label" htmlFor="ciudad">Área</label>
                     <select id="ciudad" className="form-select mb-3">
                     <option value="administracion">Administración</option>
                     <option value="arte-diseño">Arte/Diseño</option>

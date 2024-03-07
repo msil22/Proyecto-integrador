@@ -1,6 +1,5 @@
 import React from 'react';
 import './feedusuario.css';
-import DisponibilidadTab from '../tipo-estado-usuario/EstadoUsuario';
 
 
 function FeedUsuario() {

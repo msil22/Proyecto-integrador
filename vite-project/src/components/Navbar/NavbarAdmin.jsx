@@ -16,7 +16,7 @@ function NavbarAdmin() {
       <ul className="navbar-nav">
         <li className="nav-item dropdown position-fixed top-0 end-0">
           <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <i class="fa-solid fa-user"></i>
+            <i className="fa-solid fa-user"></i>
           </a>
           <ul className="dropdown-menu dropdown-menu-end">
             <li><Link to='/regular-perfiles' className="dropdown-item" >Ver cv</Link></li>

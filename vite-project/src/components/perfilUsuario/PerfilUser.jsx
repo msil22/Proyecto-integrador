@@ -1,7 +1,7 @@
 import React from 'react'
 import './PerfilUser.css'
 
-export default function PerfilUsuario() {
+function PerfilUsuario() {
   return (
     <>
         <div className='headerUsuario'>
@@ -18,3 +18,7 @@ export default function PerfilUsuario() {
     </>
   )
 }
+
+
+
+export default PerfilUsuario 

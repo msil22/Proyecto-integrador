@@ -30,27 +30,27 @@ function RegularPerfiles() {
         <div className='container-fluid' id='CVcontenedores'>
             <div className='perfil-revisar'>
                 <p>Nombre Apellido | Fecha de Registro | <b> Por revisar </b></p>
-                <button type="button" class="btn btn-info" onClick={() => openModal('/CV.jpg')}>Ver CV</button>
+                <button type="button" className="btn btn-info" onClick={() => openModal('/CV.jpg')}>Ver CV</button>
             </div>
             <div className='perfil-revisar'>
                 <p>Nombre Apellido | Fecha de Registro | <b> Por revisar </b></p>
-                <button type="button" class="btn btn-info" onClick={() => openModal('/CV.jpg')}>Ver CV</button>
+                <button type="button" className="btn btn-info" onClick={() => openModal('/CV.jpg')}>Ver CV</button>
             </div>
             <div className='perfil-revisar'>
                 <p>Nombre Apellido | Fecha de Registro | <b> Por revisar </b></p>
-                <button type="button" class="btn btn-info" onClick={() => openModal('/CV.jpg')}>Ver CV</button>
+                <button type="button" className="btn btn-info" onClick={() => openModal('/CV.jpg')}>Ver CV</button>
             </div>
             <div className='perfil-revisar'>
                 <p>Nombre Apellido | Fecha de Registro | <b> Por revisar </b></p>
-                <button type="button" class="btn btn-info" onClick={() => openModal('/CV.jpg')}>Ver CV</button>
+                <button type="button" className="btn btn-info" onClick={() => openModal('/CV.jpg')}>Ver CV</button>
             </div>
             <div className='perfil-revisar'>
                 <p>Nombre Apellido | Fecha de Registro | <b> Por revisar </b></p>
-                <button type="button" class="btn btn-info" onClick={() => openModal('/CV.jpg')}>Ver CV</button>
+                <button type="button" className="btn btn-info" onClick={() => openModal('/CV.jpg')}>Ver CV</button>
             </div>
             <div className='perfil-revisar'>
                 <p>Nombre Apellido | Fecha de Registro | <b> Por revisar </b></p>
-                <button type="button" class="btn btn-info" onClick={() => openModal('/CV.jpg')}>Ver CV</button>
+                <button type="button" className="btn btn-info" onClick={() => openModal('/CV.jpg')}>Ver CV</button>
             </div>
         </div>
         <div id="myModal" className="modal" onClick={handleOutsideClick}>

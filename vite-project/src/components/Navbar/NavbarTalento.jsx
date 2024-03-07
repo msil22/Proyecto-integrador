@@ -21,7 +21,7 @@ function NavbarTalento() {
           <ul className="dropdown-menu dropdown-menu-end">
             <li><Link to='/' className="dropdown-item" >Editar CV</Link></li>
             <li><Link to={'/formulario-talento'} className="dropdown-item" >Formulario</Link></li>
-            <li><hr class="dropdown-divider" /></li>
+            <li><hr className="dropdown-divider" /></li>
             <li><Link to='/' className="dropdown-item" >Cerrar Sesión</Link></li>
           </ul>
         </li>

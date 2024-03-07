@@ -16,12 +16,12 @@ function NavbarEmpresa() {
       <ul className="navbar-nav">
         <li className="nav-item dropdown position-fixed top-0 end-0">
           <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <i class="fa-solid fa-user"></i>
+            <i className="fa-solid fa-user"></i>
           </a>
           <ul className="dropdown-menu dropdown-menu-end">
             <li><Link to={'/perfil-empresa'} className="dropdown-item" >Perfil</Link></li>
             <li><Link to={'/'} className="dropdown-item" >Mensajes</Link></li>
-            <li><hr class="dropdown-divider" /></li>
+            <li><hr className="dropdown-divider" /></li>
             <li><Link to={'/'} className="dropdown-item" >Cerrar Sesión</Link></li>
           </ul>
         </li>
